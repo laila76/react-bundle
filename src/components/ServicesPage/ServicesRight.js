@@ -3,13 +3,16 @@ import CardServices from './CardServices';
 
 export default function ServicesRight() {
   return (
-    <div>
+    <div className=" ">
       <div>
         <h2 className="text-lg text-gray-400">Ce que je vous offre</h2>
         <h1 className="text-7xl font-bold text-blue-900">Mes Services</h1>
       </div>
       <div className="py-10">
-        <img src="" alt="" />
+        <div className='w-10'>
+          <img src="" alt="" />
+        </div>
+
         <h1></h1>
         <p></p>
       </div>
@@ -35,14 +38,14 @@ export default function ServicesRight() {
       les moteurs de recerche"
         />
       </div>
-      <div className='py-80'>
+      <div className="py-80 ">
         <button
           type="button"
-          class="inline-block px-8 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md
+          className="inline-block px-8 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md
            hover:shadow-lg
            focus:shadow-lg focus:outline-none focus:ring- active:shadow-lg transition duration-150 ease-in-out"
         >
-       Contactez-moi
+          Contactez-moi
         </button>
       </div>
     </div>
