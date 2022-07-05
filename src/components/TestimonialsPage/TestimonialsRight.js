@@ -24,7 +24,25 @@ export default function TestimonialsRight() {
       effic iturut magna.Pellentesque sit 
       amet tellus blandit.Etiam nec odio vestibulum est mattis effic iturut
       magna.Pellentesque sit."
-        src=""
+        src="men.webp"
+        description="Dianne smith Customer"
+      />
+      <CardTestimonials
+        title="Fort de proposition "
+        paragraphe="etiam nec odio vestibulum est mattis
+      effic iturut magna.Pellentesque sit 
+      amet tellus blandit.Etiam nec odio vestibulum est mattis effic iturut
+      magna.Pellentesque sit."
+        src="diane.webp"
+        description="Dianne smith Customer"
+      />
+      <CardTestimonials
+        title="Agréeable et proffessional"
+        paragraphe="etiam nec odio vestibulum est mattis
+      effic iturut magna.Pellentesque sit 
+      amet tellus blandit.Etiam nec odio vestibulum est mattis effic iturut
+      magna.Pellentesque sit."
+        src="fille.webp"
         description="Dianne smith Customer"
       />
     </div>

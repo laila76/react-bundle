@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function CardTestimonials ({title,paragraphe,src,description}) {
   return (
-    <div>
-      <div>
-        <h3>{title}</h3>
-        <p>{paragraphe}</p>
+    <div className=''>
+      <div className=''>
+        <h3 className='text-sm text-blue-900 py-3'>{title}</h3>
+        <p className='text-base text-gray-500'>{paragraphe}</p>
       </div>
-      <div>
+      <div className='py-2'>
         <img src={src} alt="" />
-        <p>{description}</p>
+        <p className='text-gray-600'>{description}</p>
       </div>
     </div>
   );
