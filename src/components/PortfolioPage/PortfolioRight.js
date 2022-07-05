@@ -1,4 +1,5 @@
 import React from "react";
+import CardPortfolio from "./CardPortfolio";
 import NavPortfolio from "./NavPortfolio";
 
 const PortfolioRight = ({ src, title }) => {
@@ -8,12 +9,13 @@ const PortfolioRight = ({ src, title }) => {
         <h1 className="font-bold text-7xl text-blue-900">Mon Portofolio</h1>
       </div>
       {/* menu portfolio */}
-       <NavPortfolio/>
+      <NavPortfolio />
       {/* imgprojects */}
-      <div>
-        <img src={src} alt="" />
-        <h2>{title}</h2>
+      <div className="flex w-max-md py-4 space-x-8 m-16">
+        <CardPortfolio  src="./projet2.jpg" title="project1" />
+        <CardPortfolio src="projet2.jpg" title="project2" />
       </div>
+     
     </div>
   );
 };
