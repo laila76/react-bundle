@@ -4,7 +4,7 @@ import CardTestimonials from "./CardTestimonials";
 export default function TestimonialsRight() {
   const testimonials = [
     {
-      src: "img/téléchargement (18).webp",
+      src: "men.webp",
       title: "Rapide et efficace",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni atque vero quis. Nihil dicta reprehenderit velit nam doloribus inventore praesentium ipsum distinctio modi quo culpa.",
@@ -12,7 +12,7 @@ export default function TestimonialsRight() {
       id: 1,
     },
     {
-      src: "img/téléchargement (19).webp",
+      src: "diane.webp",
       title: "Fort de proposition",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni atque vero quis. Nihil dicta reprehenderit velit nam doloribus inventore praesentium ipsum distinctio modi quo culpa.",
@@ -20,7 +20,7 @@ export default function TestimonialsRight() {
       id: 2,
     },
     {
-      src: "img/téléchargement (20).webp",
+      src: "fille.webp",
       title: "Agréable et proffessionel",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni atque vero quis. Nihil dicta reprehenderit velit nam doloribus inventore praesentium ipsum distinctio modi quo culpa.",
@@ -38,7 +38,7 @@ export default function TestimonialsRight() {
 
 
 
-        <div className="pt-28 grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 ">
         {testimonials.map((testimonial) => (
           <CardTestimonials
             src={testimonial.src}

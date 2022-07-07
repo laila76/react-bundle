@@ -51,8 +51,8 @@ export default function CardCompetences() {
             Mes Compétences
           </h1>
         </span>
-        <div className="pb-16">
-          <p className="pt-10 text-accent-dark font-medium">
+        <div className="  pb-16">
+          <p className=" pt-10 text-accent-dark font-medium">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ab
             aspernatur eligendi quisquam praesentium magni maxime modi, asperiores
             officiis, alias, recusandae a. Corporis animi, tempora assumenda
