@@ -1,6 +1,28 @@
 import React from 'react'
-
+// import ProgressBars from './ProgressBars'
 export default function HomeRight() {
+   const percentage = [
+    {
+      percentage: 75,
+     title: "Intuition",
+      id: 1,
+   },
+   {
+      percentage: 83,
+       title: "Créativity",
+       id: 2,
+     },
+     {
+       percentage: 25,
+       title: "Pure Luck",
+       id: 3,
+     },
+    {
+       percentage: 95,
+       title: "Awesomeness",
+       id: 4,
+     },
+   ];
   return (
     <div className=''>
       <div>
@@ -21,11 +43,17 @@ export default function HomeRight() {
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione eius labore ex consequuntur quidem perferendis provident hic odit facilis officiis molestiae aperiam, animi et in ducimus voluptatem cum sit dolores.
         </p>
       </div>
-      <div className='py-20'>
-        <div className="cirle-wrap">
-          <div className="inside-circle">75%</div>
-        </div>
+         {/* <div className="px-36 md:flex md:justify-between md:items-center"> 
+        {percentage.map((bar) => (
+          <ProgressBars
+            percentage={bar.percentage}
+            title={bar.title}
+            key={bar.id}
+            
+          />
+        ))}
+      </div>  */}
       </div>
-    </div>
-  );
+  
+  ); 
 }

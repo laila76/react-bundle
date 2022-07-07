@@ -5,7 +5,7 @@ export default function CardServices({src,title,paragraphe}) {
     <div>
       <div className="flex">
         <div className=''>
-          <img src={src} alt="" />
+          <img src={src} alt=""  className='p-2 w-52'/>
         </div>
 
         <div>

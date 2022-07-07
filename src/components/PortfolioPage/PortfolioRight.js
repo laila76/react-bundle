@@ -11,9 +11,9 @@ const PortfolioRight = ({ src, title }) => {
       {/* menu portfolio */}
       <NavPortfolio />
       {/* imgprojects */}
-      <div className="flex w-max-md py-4 space-x-8 m-16">
-        <CardPortfolio  src="./projet2.jpg" title="project1" />
-        <CardPortfolio src="projet2.jpg" title="project2" />
+      <div className="flex w-max-md py-4 space-x-8 m-16 gap">
+        <CardPortfolio  src="./projet1.PNG" title="project1" />
+        <CardPortfolio src="./projet2.PNG" title="project2" />
       </div>
      
     </div>
